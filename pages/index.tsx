@@ -1,6 +1,6 @@
 import { AiOutlineYoutube, AiOutlineGithub, AiOutlineInstagram } from 'react-icons/ai';
 
-import { Header, ButtonList, BoxList, Title, VideoList, Footer, TextIcon } from './components';
+import { Header, ButtonList, BoxList, Title, VideoList, Footer, TextIcon } from '../components';
 
 export default function Home() {
   return (
