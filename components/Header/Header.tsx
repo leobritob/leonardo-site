@@ -13,7 +13,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-wrap">
+      <div className="flex flex-wrap">
         <List
           items={[
             { label: 'Te ajudo a ser um desenvolvedor desejado e bem pago no mercado de TI com Javascript' },

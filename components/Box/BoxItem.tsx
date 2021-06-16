@@ -10,10 +10,7 @@ export type BoxProps = {
 
 export const BoxItem: React.FC<BoxProps> = ({ title, subTitle, buttonLabel, href, disabled }) => {
   return (
-    <div
-      className="flex-1 w-full text-white border border-solid border-white border-opacity-25 rounded-md mb-2 sm:w-max sm:mx-1 p-4"
-      style={{ minWidth: '350px' }}
-    >
+    <div className="flex-1 w-full text-white border border-solid border-white border-opacity-25 rounded-md mb-2 sm:w-max sm:mx-1 p-4">
       <span className="text-white text-xs">{subTitle}</span>
       <p className="text-white text-xl">{title}</p>
 
