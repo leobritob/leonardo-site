@@ -23,6 +23,8 @@ function MyApp({ Component, pageProps }) {
             gtag('config', 'UA-71277057-1');
           </script>
 
+          <meta name="facebook-domain-verification" content="edvonyiyjki8w98if2mqpyh7v7g3nh" />
+
           <!-- Facebook Pixel Code -->
           <script>
           !function(f,b,e,v,n,t,s)
