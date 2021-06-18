@@ -1,6 +1,6 @@
 import { AiOutlineYoutube, AiOutlineGithub, AiOutlineInstagram } from 'react-icons/ai';
 
-import { Header, ButtonList, BoxList, Title, VideoList, Footer, TextIcon } from '../components';
+import { Header, ButtonList, BoxList, Title, VideoList, Footer, TextIcon, Newsletter } from '../components';
 
 export default function Home() {
   return (
@@ -24,6 +24,7 @@ export default function Home() {
           },
         ]}
       />
+      <div className="mb-4" />
 
       <Title>Cursos ⚡️</Title>
       <BoxList
@@ -33,6 +34,10 @@ export default function Home() {
           { subTitle: 'CURSO', title: 'React Native', buttonLabel: 'EM BREVE', disabled: true },
         ]}
       />
+
+      <Title>Fique sabendo ANTES de todo mundo 🔥</Title>
+      <Newsletter />
+      <div className="mb-4" />
 
       <Title>Vídeos recentes 🚀</Title>
       <VideoList

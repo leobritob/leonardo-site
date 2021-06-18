@@ -5,3 +5,4 @@ export { List, ListItem } from './List';
 export { Title, TextIcon } from './Text';
 export { VideoList, VideoItem } from './Video';
 export { Footer } from './Footer';
+export { Newsletter } from './Newsletter';
