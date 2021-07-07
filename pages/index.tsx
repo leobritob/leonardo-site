@@ -42,10 +42,8 @@ export default function Home() {
       <Title>Vídeos recentes 🚀</Title>
       <VideoList
         items={[
-          { youtubeId: 'V4vefXyzzX4', title: 'Criando um TIMER com React e TypeScript do ZERO - TODOApp' },
-          { youtubeId: 'AW_rSUpDBRo', title: 'Criando Projeto React com TypeScript do Zero - TODOApp' },
-          { youtubeId: 'p1hzHVgG6bI', title: 'Testes Unitários com NestJS do ZERO - Parte 1 - TODOApp' },
-          { youtubeId: 'igrlZqviOiI', title: 'Testes Unitários com NestJS do ZERO - Parte 2 - TODOApp' },
+          { youtubeId: 'BRMPiLe94sQ', title: 'Consumindo API no REACT com TypeScript do ZERO - TODOApp' },
+          { youtubeId: 'EKtrqq9eeyk', title: 'Criando uma API do Zero em Node.js com NestJS - TODOApp' },
         ]}
       />
 
